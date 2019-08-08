@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+        
+
+    <!--step 1-->
+    
+                     
+                 
+                           
+                                                        
+           
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" android:tag="layout/activity_main_0">
+
+        <!--step 3-->
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="binding_1"        
+           />
+        <TextView
+            android:id="@+id/textViewLast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewName"
+            android:tag="binding_2"        
+            />
+
+    </RelativeLayout>
+         
